@@ -55,7 +55,7 @@ upload = ("C:\\Users\\Admin\\PycharmProjects\\Gmail\\venv\\Tests\\Fileupload.exe
 autoit.run(upload)
 
 # Send
-
+time.sleep(10)
 snd = driver.find_element_by_xpath("//div[@class='T-I J-J5-Ji aoO v7 T-I-atl L3']")
 driver.implicitly_wait(5)
 snd.click()
